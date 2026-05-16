@@ -1,0 +1,16 @@
+{
+  "name": "ecomm-payment-integration",
+  "version": "1.0.0",
+  "description": "A complete, fully functional, production-ready E-Commerce Web Application built with the MERN stack (MongoDB, Express, React, Node.js) featuring modern UI/UX design and payment gateway integrations.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
